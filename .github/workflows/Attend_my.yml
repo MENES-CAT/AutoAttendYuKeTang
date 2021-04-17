@@ -71,7 +71,7 @@ jobs:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
   Run3:
     runs-on: macos-latest
-    needs: Run1
+    needs: Run2
     steps:
       - name: Checkout
         uses: actions/checkout@v2
