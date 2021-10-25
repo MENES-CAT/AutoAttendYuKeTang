@@ -45,7 +45,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: MENES-CAT/AutoAttendYuKeTang
+          repository: arrayJY/AutoAttendYuKeTang
           ref: master
 
       - name: Use Node.js ${{ matrix.node-version }}
@@ -76,7 +76,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: MENES-CAT/AutoAttendYuKeTang
+          repository: arrayJY/AutoAttendYuKeTang
           ref: master
 
       - name: Use Node.js ${{ matrix.node-version }}
@@ -108,7 +108,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: MENES-CAT/AutoAttendYuKeTang
+          repository: arrayJY/AutoAttendYuKeTang
           ref: master
 
       - name: Use Node.js ${{ matrix.node-version }}
