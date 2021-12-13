@@ -28,3 +28,5 @@ node ./src/index.js
 4. In 'Secret' page, create two secrets named 'USER_INFO' and 'PUSH_KEY':
    - 'USER_INFO': yourYuKeTangaccount|yourYuKeTangpassword
    - 'PUSH_KEY': SCKEY
+
+test
